@@ -1,5 +1,5 @@
 header#main-header{
-    background: #fafafa;
+    background: #ccc;
     height: 72px;
     border-bottom: 1px solidrgb(0, 0, 0);
     
@@ -21,6 +21,11 @@ header#main-header .logo{
     background: #da1414;
     height: 30px;
     border-bottom: 1px solidrgb(0, 0, 0);
+}
+
+.user-name{
+    font-size : 20px;
+    color: black;
 }
 
 

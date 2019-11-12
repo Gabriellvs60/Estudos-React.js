@@ -16,7 +16,7 @@ function Header() {
             </div> */}
             <div className="header-content">
                 <div className="account"></div>
-                <p>Joaquim Tavares</p>
+                <p className="user-name">Joaquim Tavares</p>
                 <IconButton className="user-info">
                     <AccountCircleIcon className="button-account" />
                 </IconButton>
