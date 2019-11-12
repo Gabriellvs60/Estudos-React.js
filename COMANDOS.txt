@@ -6,3 +6,6 @@ npm install react-dom
 
 Install React Modal
 npm install react-modal
+
+Install Material UI
+npm install @material-ui/core
