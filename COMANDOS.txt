@@ -1,0 +1,8 @@
+Install ReactStrap
+npm install react-bootstrap bootstrap
+
+Install React-dom
+npm install react-dom
+
+Install React Modal
+npm install react-modal

@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+
+import Modal from '../src/components/Modal/Modal';
+import Backdrop from '../src/components/Backdrop/Backdrop';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    creating: false
+  };
+
+  startCreateEventHandler = () => {
+    this.setState({creating : true});
+  }
+
+  modalConfirmHandler = () => {
+    this.setState({creating: false});
+  };
+
+  modalCancelHandler = () => {
+    this.setState({creating : false});
+  };
+  render() {
+    return (
+      <React.Fragment>
+        {this.state.creating && <Backdrop/>}
+        {this.state.creating && 
+        <Modal title="Add Event" canCancel canConfirm onCancel={this.modalCancelHandler} onConfirm={this.modalConfirmHandler}>
+          <p>Modal Content</p>
+        </Modal>}
+        <div className="events-control">
+          <p>Share your own Events!</p>
+          <button className="btn" onClick={this.startCreateEventHandler}>Create Event</button>
+        </div>
+      </React.Fragment>
+      
+    )
+  }
 }
 
-export default App;
+export default App
