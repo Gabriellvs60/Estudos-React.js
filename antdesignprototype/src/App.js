@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
 //Importing Components
-import Header from '../src/components/Header/Header';
+import Layout from './components/Layout/LayoutPage';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Protótipo de Design</h1>
-      </header>
+      <Layout/>
     </div>
   );
 }
