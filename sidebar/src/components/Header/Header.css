@@ -1,0 +1,15 @@
+header#main-header{
+    background: #fafafa;
+    height: 72px;
+    border-bottom: 1px solidrgb(0, 0, 0);
+}
+
+header#main-header .header-content {
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+header#main-header .header-content .user-info {
+    color: black;
+}

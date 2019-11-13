@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+//Importando componentes
+import Header from '../src/components/Header/Header';
+import Sidebar from '../src/components/Sidebar/Sidebar';
+import Table from '../src/components/Table/Table';
+
+//Importando Estilo
 import './App.css';
-import Sidebar from '../src/components/Sidebar';
+
 
 function App() {
   return ( 
-       <Sidebar/>
+    <div className="content">
+      <Header/>
+      <Sidebar/>
+      <Table/>
+    </div> 
   );
 }
 
