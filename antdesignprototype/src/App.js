@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+//Importing Components
+import Header from '../src/components/Header/Header';
 
 function App() {
   return (
