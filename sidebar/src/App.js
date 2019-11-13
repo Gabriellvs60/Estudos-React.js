@@ -13,7 +13,9 @@ function App() {
     <div className="content">
       <Header/>
       <Sidebar/>
+      <div className="table-content">
       <Table/>
+      </div>
     </div> 
   );
 }
