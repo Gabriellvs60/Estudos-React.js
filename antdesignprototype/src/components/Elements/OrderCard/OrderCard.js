@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card } from '../styles';
+import { CardOrder } from '../styles';
 //Importing Elements
 import LabelOrderStatus from '../../Elements/LabelOrderStatus/LabelOrderStatus';
 
@@ -9,12 +9,12 @@ export default class OrderCard extends Component {
     render() {
         return (
             <div>
-                <Card style={{ width: 300 }}>
+                <CardOrder style={{ width: 300 }}>
                     <div><LabelOrderStatus status="OPEN" text="Aberto" /></div>
+                    <p>Arte 001</p>
+                    <p>R$ 12.00</p>
                     <p>Card content</p>
-                    <p>Card content</p>
-                    <p>Card content</p>
-                </Card>
+                </CardOrder>
             </div>
         );
     }

@@ -17,7 +17,7 @@ class LayoutPage extends Component {
                     <Layout>
                         <Header/>
                         <Content/>
-                        <Footer>Footer</Footer>
+                        {/* <Footer/> */}
                     </Layout>
                 </Layout>
         );
