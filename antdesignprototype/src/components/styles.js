@@ -15,8 +15,8 @@ export const Label = styled.label `
   border-radius: 90px;
 `
 export const CardOrder = styled(Card)`
-position: absolute;
-width: 975px;
+position: fixed;
+width: 900px;
 height: 73px;
 left: 219px;
 top: 192px;
