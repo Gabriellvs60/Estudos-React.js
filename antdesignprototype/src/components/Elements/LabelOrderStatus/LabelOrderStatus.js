@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //Importing Themes
 import colors from '../../Themes/Colors';
 //Import Components from styles
-import { Label } from '../styles';
+import { Label } from '../../../styled/StyledOrderCard';
 
 export default class LabelOrderStatus extends Component {
     constructor(props) {
