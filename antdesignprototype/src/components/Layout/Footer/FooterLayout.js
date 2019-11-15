@@ -5,7 +5,7 @@ class FooterLayout extends Component {
     render() {
         return (
             <Footer>
-                <h1>I am the Footer</h1>
+                <h1>Prev Next</h1>
             </Footer>
         );
     }

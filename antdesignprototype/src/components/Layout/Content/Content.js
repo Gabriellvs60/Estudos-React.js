@@ -17,10 +17,8 @@ class Content extends Component {
     render() {
         return (
             <ContentContainer >
-                <OrderCard/>
-                <OrderCard/>
-                <OrderCard/>
-                <OrderCard/>
+                
+              
             </ContentContainer>
             
         );
