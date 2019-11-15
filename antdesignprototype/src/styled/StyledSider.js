@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 //Ant Design
-import { Icon} from 'antd';
+import { Icon } from 'antd';
+
 //Importing Themes
 import colors from '../../src/components/Themes/Colors';
 
