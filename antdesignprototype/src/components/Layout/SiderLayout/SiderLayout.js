@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 //Importing Graphos Logo
 import logo from '../../../static/imgs/logo.png';
-//Style Components
-import { StyledIcon } from '../../../styled/StyledSidebar';
+//Styled Components
+import { StyledDivLogo, StyledImgLogo, StyledLabelUsername, StyledIcon } from '../../../styled/StyledSider';
+
 //Importing Icons
 import NotepadIcon from '../../../static/imgs/icons/NotepadIcon';
 import ClientsIcon from '../../../static/imgs/icons/ClientsIcon';
@@ -18,10 +19,12 @@ class SiderLayout extends Component {
     render() {
         return (
           <Sider trigger={null}>
-          <div className="logo">
-            <img src={logo} className="imglogo"/>
-            <span className="username">Angelo Luz</span>
-          </div>
+          
+          <StyledDivLogo>
+            <StyledImgLogo src={logo}/>
+            <StyledLabelUsername>Angelo Luz</StyledLabelUsername>
+          </StyledDivLogo>
+
           <Menu mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">
               <StyledIcon component={NotepadIcon}/>

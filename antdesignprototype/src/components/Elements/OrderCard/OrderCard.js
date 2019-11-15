@@ -12,10 +12,10 @@ export default class OrderCard extends Component {
                 <StyledCard style={{ width: 300 }}>
                    
                     <LabelOrderStatus status="OPEN" text="Aberto"/>
-                    <p>Arte 001</p>
-                    <p>R$ 12.00</p>
-                    <p>Card content</p>
-                   
+                   <p1>1</p1>
+                   <p1>1</p1>
+                   <p1>1</p1>
+                   <p1>1</p1>
                 </StyledCard>
             </div>
         );

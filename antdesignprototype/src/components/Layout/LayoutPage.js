@@ -12,14 +12,16 @@ import Footer from './Footer/Footer';
 class LayoutPage extends Component {
     render() {
         return (
+            <div>
                 <Layout>
-                    <Sider/>
+                    <Sider />
                     <Layout>
-                        <Header/>
-                        <Content/>
+                        {/* <Header /> */}
+                        <Content />
                         {/* <Footer/> */}
                     </Layout>
                 </Layout>
+            </div>
         );
     }
 }

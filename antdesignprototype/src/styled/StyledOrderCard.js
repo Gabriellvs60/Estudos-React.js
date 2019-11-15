@@ -4,9 +4,8 @@ import { Card} from 'antd';
 
 export const StyledCard = styled(Card)`
 display : flex;
-flex-direction: row;
-width: 900px;
 height: 73px;
+
 left: 219px;
 top: 192px;
 background: #FFFFFF;
@@ -17,8 +16,9 @@ export const Label = styled.label `
   background-color: ${props => `${props.backgroundcolor}`}; /* Green */
   border: none;
   color: white;
+  display: flex;
+  float: left;;
   text-align: center;
-  display: inline-block;
   width: 82px;
   height: 22px;
   font-size: 11px;
