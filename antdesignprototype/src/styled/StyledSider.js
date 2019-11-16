@@ -33,9 +33,14 @@ export const StyledImgLogo = styled.img`
 `
 
 export const StyledLabelUsername = styled.label`
-  font-size: 16px;
-  line-height: 18px;
-  color: #888888;
+ font-family: Montserrat;
+ margin-top: 18px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 18px;
+letter-spacing: 0.08em;
+color: #888888;
 `
 // ---> End of Logo and Username
 
@@ -51,6 +56,7 @@ justify-content: center;
 export const StyledMenuItem = styled(Menu.Item) `
 margin-top: 50px;
 border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+border-width: 0.85px;
 `
 
 export const StyledIcon = styled(Icon) `
