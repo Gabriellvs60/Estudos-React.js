@@ -2,14 +2,23 @@ import React, { Component } from 'react';
 //Importing Graphos Logo
 import logo from '../../../static/imgs/logo.png';
 //Styled Components
-import { StyledSider, StyledDivLogo, StyledMenu, StyledMenuItem, StyledImgLogo, StyledLabelUsername, StyledIcon } from '../../../styled/StyledSider';
+import { 
+  StyledSider, 
+  StyledDivLogo, 
+  StyledMenu, 
+  StyledMenuItem, 
+  StyledImgLogo, 
+  StyledLabelUsername, 
+  StyledIcon, 
+  StyledDivLoginLogout 
+} from '../../../styled/StyledSider';
 
 //Importing Icons
 import NotepadIcon from '../../../static/imgs/icons/NotepadIcon';
 import ClientsIcon from '../../../static/imgs/icons/ClientsIcon';
 import EmployeesIcon from '../../../static/imgs/icons/EmployeesIcon';
-
-
+import KeyIcon from '../../../static/imgs/icons/KeyIcon';
+import ExitIcon from '../../../static/imgs/icons/ExitIcon';
 
 class Sider extends Component {
   render() {
@@ -33,6 +42,11 @@ class Sider extends Component {
             <span>Colaboradores</span>
           </StyledMenuItem>
         </StyledMenu>
+
+        <StyledDivLoginLogout>
+        <StyledIcon component={KeyIcon} />
+        <StyledIcon component={ExitIcon} />
+        </StyledDivLoginLogout>
       </StyledSider>
       
     );

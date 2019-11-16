@@ -7,7 +7,7 @@ import colors from '../../src/components/Themes/Colors';
 
 //Layout.Sider
 export const StyledSider = styled(Layout.Sider)`
- height: 115vh;
+ height: 122vh;
  margin-left:20px;
  margin-top:20px;
  margin-bottom:5px;
@@ -50,10 +50,18 @@ justify-content: center;
 `
 export const StyledMenuItem = styled(Menu.Item) `
 margin-top: 50px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 `
 
 export const StyledIcon = styled(Icon) `
   component: ${props => `${props.component}`}; /* Green */
   width: 50px;
-  size: 20px;
+  
+`
+
+export const StyledDivLoginLogout = styled.div `
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
 `
