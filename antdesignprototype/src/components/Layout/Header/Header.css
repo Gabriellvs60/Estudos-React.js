@@ -1,6 +1,40 @@
 .head{
     display: flex;
-    background-color: rgb(139, 135, 135);
+    background-color: #fff;
     height: 160px;
     margin-top:20px;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    bottom: 0px;    
+    /* border-radius: 2px;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px; */
+}
+
+.btnAction{
+    display: flex;
+    width: 180px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 90px;
+    border-color: rgb(206, 201, 201);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.inputSearch{
+    display: flex;
+    width: 180px;
+    
+    height: 30px;
+    justify-content: center;
+    border-radius: 90px;
+    border-color: rgb(206, 201, 201);
+    border-style: solid;
+    border-width: 1px; 
 }

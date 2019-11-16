@@ -7,10 +7,10 @@ export const StyledIcon = styled(Icon) `
   theme: filled;
 `
 
-export const StyledIconFooter = styled(Icon) `
-  src: ${props => `${props.src}`}; /* Green */
-  width: 90px;
+export const StyledIconFooter = styled.image `
+  source: ${props => `${props.component}`}; /* Green */
   fill: red;
+  width: 50px;
   border-radius: 90px;
   border-color: red;
   border-style: solid;
