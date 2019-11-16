@@ -1,0 +1,6 @@
+.head{
+    display: flex;
+    background-color: rgb(139, 135, 135);
+    height: 160px;
+    margin-top:20px;
+}

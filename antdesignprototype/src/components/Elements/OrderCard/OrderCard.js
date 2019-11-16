@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import { StyledCard,StyledFlexContainer,StyledContentCard, StyledMarkerType } from '../../../styled/StyledOrderCard';
+import { 
+    StyledCard,StyledFlexContainer,
+    StyledContentCard, 
+    StyledMarkerType,
+    StyledText,
+} from '../../../styled/StyledOrderCard';
 //Importing Elements
 import LabelOrderStatus from '../../Elements/LabelOrderStatus/LabelOrderStatus';
 
@@ -10,10 +15,11 @@ export default class OrderCard extends Component {
                 <StyledCard >
                <StyledContentCard>
                    <StyledMarkerType backgroundcolor="blue"/>
-                   <h1>Impressão</h1>
-                   <h1>João Silva</h1>
-                   <h1>R$ 12.00</h1>
-                   <h1>previsão:</h1>
+                   <StyledText>Impressão</StyledText>
+                   <StyledText>Valor</StyledText>
+                   <StyledText>Cliente</StyledText>
+                   <StyledText>Atendente</StyledText>
+                   <StyledText>Entrega:</StyledText>
                <LabelOrderStatus status="OPEN" text="ABERTO"/>
                </StyledContentCard>
                 </StyledCard>
