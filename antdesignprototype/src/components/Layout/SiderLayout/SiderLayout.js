@@ -9,11 +9,14 @@ import {
   StyledMenuItem,
   StyledImgLogo,
   StyledLabelUsername,
-  StyledIcon,
   StyledDivLoginLogout
 } from '../../../styled/StyledSider';
 
-//Importing Icons
+import {
+  StyledIcon
+} from '../../../styled/StyledIcon';
+
+//Importing Icons as Components
 import NotepadIcon from '../../../static/imgs/icons/NotepadIcon';
 import ClientsIcon from '../../../static/imgs/icons/ClientsIcon';
 import EmployeesIcon from '../../../static/imgs/icons/EmployeesIcon';

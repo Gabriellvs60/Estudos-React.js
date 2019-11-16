@@ -20,7 +20,7 @@ export default class OrderCard extends Component {
                    <StyledText>Cliente</StyledText>
                    <StyledText>Atendente</StyledText>
                    <StyledText>Entrega:</StyledText>
-               <LabelOrderStatus status="OPEN" text="ABERTO"/>
+               <LabelOrderStatus status="OPEN" text="ABERTO"/> 
                </StyledContentCard>
                 </StyledCard>
             </StyledFlexContainer>

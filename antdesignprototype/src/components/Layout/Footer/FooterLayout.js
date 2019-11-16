@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import { Layout } from 'antd';
-const { Footer } = Layout;
+import { StyledFooter } from '../../../styled/StyledFooter';
+import { StyledIconFooter } from '../../../styled/StyledIcon';
+//Importing Icons
+import PrevIcon from '../../../static/imgs/icons/PrevIcon';
+import NextIcon from '../../../static/imgs/icons/NextIcon';
+import previous from '../../../static/imgs/icons/previous.png';
+
 class FooterLayout extends Component {
     render() {
         return (
-            <Footer>
-                <h1>Prev Next</h1>
-            </Footer>
+            <StyledFooter>
+                 <StyledIconFooter src={'../../../static/imgs/icons/previous.png'} />
+                <NextIcon/>
+            </StyledFooter>
         );
     }
 }

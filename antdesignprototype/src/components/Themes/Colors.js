@@ -9,7 +9,7 @@ export default (opacity = 1) => {
       green: `#45AC68`,
       white: '#FFF',
       gray: '#C4C4C4',
-      darkGray: ' #A5A5A5',
+      darkGray: ' #888888',
       lightGray: '#E8E8E8',
     }
   }

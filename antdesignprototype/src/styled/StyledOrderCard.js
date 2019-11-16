@@ -22,6 +22,7 @@ border-radius: 15px;
 export const StyledContentCard = styled.div`
 display : flex;
 flex-direction: row;
+justify-content: space-between;
 
 `
 
@@ -54,7 +55,6 @@ export const StyledMarkerType = styled.label`
 
 export const StyledText = styled.text`
   display : flex;
-  
   font-family: Nunito;
   font-style: normal;
   font-weight: 800;
