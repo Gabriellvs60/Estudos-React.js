@@ -62,7 +62,6 @@ border-width: 0.85px;
 export const StyledIcon = styled(Icon) `
   component: ${props => `${props.component}`}; /* Green */
   width: 50px;
-  
 `
 
 export const StyledDivLoginLogout = styled.div `

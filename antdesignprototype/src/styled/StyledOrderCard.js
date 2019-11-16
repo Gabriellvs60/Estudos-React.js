@@ -2,39 +2,56 @@ import styled from 'styled-components';
 //Importing from AntDesign
 import { Card } from 'antd';
 
-export const StyledFlexContainer = styled.div `
+export const StyledFlexContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 972px;
+  justify-content: left;
 `
 
 export const StyledCard = styled(Card)`
 display : flex;
-width: 972px;
+flex-direction: row;
+width: 80%;
 margin-top: 30px;
-height: 73px;
-left: 219px;
+height: 90px;
+left: 10px;
 top: 192px;
-
 box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
 border-radius: 15px;
 `
-export const Label = styled.label `
-  display : flex;
-  background-color: ${props => `${props.backgroundcolor}`}; /* Green */
-  border: none;
-  color: white;
-  float: left;;
-  text-align: center;
-  width: 82px;
-  height: 22px;
-  font-size: 11px;
-  border-radius: 90px;
+
+export const StyledContentCard = styled.div`
+display : flex;
+flex-direction: row;
 `
 
-export const StyledText = styled.text `
+export const Label = styled.label`
   display : flex;
-  
+  background-color: ${props => `${props.backgroundcolor}`}; /* Green */
+  color: white;
+  justify-content: center;
+  width: 82px;
+  height: 22px;
+  border-radius: 90px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 15;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+`
+export const StyledMarkerType = styled.label`
+  display: flex;
+  flex-direction: center;
+  background-color: #46B035; /* Green */
+  width: 5px;
+  height: 40px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+`
+
+export const StyledText = styled.text`
+  display : flex;
+  margin-top: 30px;
 
 `
