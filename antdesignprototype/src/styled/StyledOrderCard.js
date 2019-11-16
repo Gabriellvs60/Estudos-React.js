@@ -21,16 +21,15 @@ border-radius: 15px;
 
 export const StyledContentCard = styled.div`
 display : flex;
-flex-direction: row;
-justify-content: space-between;
+
 
 `
-
 export const Label = styled.label`
   display : flex;
+  align-items: center;
+  justify-content: center;
   background-color: ${props => `${props.backgroundcolor}`}; /* Green */
   color: white;
-  justify-content: center;
   width: 82px;
   height: 22px;
   border-radius: 90px;
@@ -40,6 +39,8 @@ export const Label = styled.label`
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 0.01em;
+  margin-left: 20px;
+  margin-top: 10px;
 
 `
 export const StyledMarkerType = styled.label`
@@ -50,11 +51,13 @@ export const StyledMarkerType = styled.label`
   height: 40px;
   border-radius: 30px;
   margin-bottom: 5px;
-  margin-left: 40px;
+  margin-left: 35px;
 `
 
 export const StyledText = styled.text`
   display : flex;
+  align-items: center;
+  margin-bottom: 2.5px;
   font-family: Nunito;
   font-style: normal;
   font-weight: 800;
@@ -62,4 +65,5 @@ export const StyledText = styled.text`
   line-height: 19px;
   letter-spacing: 0.02em;
   color: #888888;
+  margin-left: 35px;
 `

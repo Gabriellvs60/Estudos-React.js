@@ -21,8 +21,6 @@ class Content extends Component {
                 <OrderCard/>
                 <OrderCard/>
                 <OrderCard/>
-                <OrderCard/>
-                <OrderCard/>
             </ContentContainer>
             
         );
