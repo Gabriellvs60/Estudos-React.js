@@ -18,20 +18,15 @@
 .btn-servicos{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-end;
     margin-left: auto;
-    padding: 0px 50px;
     background-color: aquamarine;
 }
 
 .pagination-info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;    
     justify-content: flex-end;
     margin-left: auto;
-    padding: 0px 50px;
     background-color: rgb(221, 110, 255);
 }
 

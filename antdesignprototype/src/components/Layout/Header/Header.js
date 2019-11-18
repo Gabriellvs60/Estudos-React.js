@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Header.css';
-import { Row, Col } from 'antd';
 
 class Header extends Component {
     render() {
@@ -12,22 +11,19 @@ class Header extends Component {
                     </div>
                     <div className="btn-servicos">
                         <button className="btnServices">Serviços</button>
-                        
+
                     </div>
                 </div>
 
                 <div className="actions">
                     <button className="btnAction">Ordenar Por</button>
                     <button className="btnAction">Filtrar Por Serviço</button>
-                    <input value="Pesquisar" type="text" className="inputSearch"/>
+                    <input value="Pesquisar" type="text" className="inputSearch" />
                     <div className="pagination-info">
-                    <p>0 de 10</p>
+                        <p>0-10 de 20 10 -></p>
                     </div>
                 </div>
-
-              
             </div>
-            
         );
     }
 }
