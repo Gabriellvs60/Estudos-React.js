@@ -4,6 +4,7 @@ import {
     StyledContentCard, 
     StyledMarkerType,
     StyledText,
+    StyledTypeServiceDiv
 } from '../../../styled/StyledOrderCard';
 //Importing Elements
 import LabelOrderStatus from '../../Elements/LabelOrderStatus/LabelOrderStatus';
@@ -14,8 +15,10 @@ export default class OrderCard extends Component {
             <StyledFlexContainer>
                 <StyledCard >
                <StyledContentCard>
-                   <StyledMarkerType backgroundcolor="blue"/>
-                   <StyledText>Impressão</StyledText>
+            <StyledTypeServiceDiv>
+                <StyledMarkerType/>
+                <p>Impressão</p>
+            </StyledTypeServiceDiv>
                    <StyledText>Valor</StyledText>
                    <StyledText>Cliente</StyledText>
                    <StyledText>Atendente</StyledText>

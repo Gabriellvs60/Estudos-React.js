@@ -5,7 +5,8 @@ import { Card } from 'antd';
 export const StyledFlexContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: left;
+ 
+  
 `
 
 export const StyledCard = styled(Card)`
@@ -21,8 +22,8 @@ border-radius: 15px;
 
 export const StyledContentCard = styled.div`
 display : flex;
-
-
+background-color: antiquewhite;
+justify-content: space-between;
 `
 export const Label = styled.label`
   display : flex;
@@ -51,9 +52,14 @@ export const StyledMarkerType = styled.label`
   height: 40px;
   border-radius: 30px;
   margin-bottom: 5px;
-  margin-left: 35px;
+  
 `
-
+export const StyledTypeServiceDiv = styled.div`
+  display : flex;
+  align-items: center;
+  margin-bottom: 2.5px;
+  color: #888888;
+  `
 export const StyledText = styled.text`
   display : flex;
   align-items: center;
@@ -65,5 +71,5 @@ export const StyledText = styled.text`
   line-height: 19px;
   letter-spacing: 0.02em;
   color: #888888;
-  margin-left: 35px;
+  margin-left: 10%;
 `
