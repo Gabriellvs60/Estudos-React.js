@@ -1,15 +1,41 @@
 .head{
     display: flex;
     flex-direction: column;
-    height: 160px;
+    height: 15%;
     margin-top:20px;
     margin-left:30px;
     background-color: transparent;
     border-bottom: 1px solid rgba(54, 54, 54, 0.19);
 }
 
-.pedidos{
+.pedidos_serviços{
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    background-color: antiquewhite;
+}
 
+.btn-servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 0px 50px;
+    background-color: aquamarine;
+}
+
+.pagination-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 0px 50px;
+    background-color: rgb(221, 110, 255);
+}
+
+.label-pedidos{
 margin-top: 20px;
 margin-left: 30px;
 font-style: normal;
@@ -22,11 +48,11 @@ color: #303030;
 }
 
 .actions{
+    background-color: cadetblue;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-self: flex-end;
-    margin-top: 60px;
-    margin-left: 10px;
     margin-right: auto;
 }
 
